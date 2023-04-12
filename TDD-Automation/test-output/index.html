@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Calculator_Unit_Test_cases" class="navigator-link">
+              <span class="suite-name border-passed">Calculator Unit Test cases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Calculator_Unit_Test_cases" class="navigator-link ">
+                    <span>E:\GitRepository\CurrentWorkSpace\ExampleJanuary09th2023Repository\TDD-Automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Calculator_Unit_Test_cases" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Calculator_Unit_Test_cases" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Calculator_Unit_Test_cases" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Calculator_Unit_Test_cases" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Calculator_Unit_Test_cases" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Calculator_Unit_Test_cases" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Calculator_Unit_Test_cases" class="hide-methods passed suite-Calculator_Unit_Test_cases"> (hide)</a> <!-- hide-methods passed suite-Calculator_Unit_Test_cases -->
+                      <a href="#" panel-name="suite-Calculator_Unit_Test_cases" class="show-methods passed suite-Calculator_Unit_Test_cases"> (show)</a> <!-- show-methods passed suite-Calculator_Unit_Test_cases -->
+                    </span>
+                    <div class="method-list-content passed suite-Calculator_Unit_Test_cases">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.AdditionTestcases" class="method navigator-link" hash-for-method="addPositiveAndNegativeNumbers">addPositiveAndNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.AdditionTestcases" class="method navigator-link" hash-for-method="addPositiveAndZeroNumbers">addPositiveAndZeroNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.AdditionTestcases" class="method navigator-link" hash-for-method="addTwoNegativeNumbers">addTwoNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.AdditionTestcases" class="method navigator-link" hash-for-method="addTwoPositiveNumbers">addTwoPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.DivisionTestcases" class="method navigator-link" hash-for-method="dividePositiveAndNegativeNumbers">dividePositiveAndNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.DivisionTestcases" class="method navigator-link" hash-for-method="dividePositiveAndOneNumbers">dividePositiveAndOneNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.DivisionTestcases" class="method navigator-link" hash-for-method="divideTwoNegativeNumbers">divideTwoNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.DivisionTestcases" class="method navigator-link" hash-for-method="divideTwoPositiveNumbers">divideTwoPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.MultiplicationTestcases" class="method navigator-link" hash-for-method="multiplyPositiveAndNegativeNumbers">multiplyPositiveAndNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.MultiplicationTestcases" class="method navigator-link" hash-for-method="multiplyPositiveAndZeroNumbers">multiplyPositiveAndZeroNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.MultiplicationTestcases" class="method navigator-link" hash-for-method="multiplyTwoNegativeNumbers">multiplyTwoNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.MultiplicationTestcases" class="method navigator-link" hash-for-method="multiplyTwoPositiveNumbers">multiplyTwoPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.SubstractionTestcases" class="method navigator-link" hash-for-method="substractPositiveAndNegativeNumbers">substractPositiveAndNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.SubstractionTestcases" class="method navigator-link" hash-for-method="substractPositiveAndZeroNumbers">substractPositiveAndZeroNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.SubstractionTestcases" class="method navigator-link" hash-for-method="substractTwoNegativeNumbers">substractTwoNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator_Unit_Test_cases" title="com.sgtesting.calculator.testcases.SubstractionTestcases" class="method navigator-link" hash-for-method="substractTwoPositiveNumbers">substractTwoPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Calculator_Unit_Test_cases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Calculator_Unit_Test_cases" class="panel Calculator_Unit_Test_cases">
+          <div class="suite-Calculator_Unit_Test_cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.calculator.testcases.AdditionTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPositiveAndNegativeNumbers">
+                  </a> <!-- addPositiveAndNegativeNumbers -->
+                  <span class="method-name">addPositiveAndNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPositiveAndZeroNumbers">
+                  </a> <!-- addPositiveAndZeroNumbers -->
+                  <span class="method-name">addPositiveAndZeroNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTwoNegativeNumbers">
+                  </a> <!-- addTwoNegativeNumbers -->
+                  <span class="method-name">addTwoNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTwoPositiveNumbers">
+                  </a> <!-- addTwoPositiveNumbers -->
+                  <span class="method-name">addTwoPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator_Unit_Test_cases-class-passed -->
+          <div class="suite-Calculator_Unit_Test_cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.calculator.testcases.DivisionTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dividePositiveAndNegativeNumbers">
+                  </a> <!-- dividePositiveAndNegativeNumbers -->
+                  <span class="method-name">dividePositiveAndNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dividePositiveAndOneNumbers">
+                  </a> <!-- dividePositiveAndOneNumbers -->
+                  <span class="method-name">dividePositiveAndOneNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divideTwoNegativeNumbers">
+                  </a> <!-- divideTwoNegativeNumbers -->
+                  <span class="method-name">divideTwoNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divideTwoPositiveNumbers">
+                  </a> <!-- divideTwoPositiveNumbers -->
+                  <span class="method-name">divideTwoPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator_Unit_Test_cases-class-passed -->
+          <div class="suite-Calculator_Unit_Test_cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.calculator.testcases.MultiplicationTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyPositiveAndNegativeNumbers">
+                  </a> <!-- multiplyPositiveAndNegativeNumbers -->
+                  <span class="method-name">multiplyPositiveAndNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyPositiveAndZeroNumbers">
+                  </a> <!-- multiplyPositiveAndZeroNumbers -->
+                  <span class="method-name">multiplyPositiveAndZeroNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyTwoNegativeNumbers">
+                  </a> <!-- multiplyTwoNegativeNumbers -->
+                  <span class="method-name">multiplyTwoNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyTwoPositiveNumbers">
+                  </a> <!-- multiplyTwoPositiveNumbers -->
+                  <span class="method-name">multiplyTwoPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator_Unit_Test_cases-class-passed -->
+          <div class="suite-Calculator_Unit_Test_cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.calculator.testcases.SubstractionTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="substractPositiveAndNegativeNumbers">
+                  </a> <!-- substractPositiveAndNegativeNumbers -->
+                  <span class="method-name">substractPositiveAndNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="substractPositiveAndZeroNumbers">
+                  </a> <!-- substractPositiveAndZeroNumbers -->
+                  <span class="method-name">substractPositiveAndZeroNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="substractTwoNegativeNumbers">
+                  </a> <!-- substractTwoNegativeNumbers -->
+                  <span class="method-name">substractTwoNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="substractTwoPositiveNumbers">
+                  </a> <!-- substractTwoPositiveNumbers -->
+                  <span class="method-name">substractTwoPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator_Unit_Test_cases-class-passed -->
+        </div> <!-- panel Calculator_Unit_Test_cases -->
+        <div panel-name="test-xml-Calculator_Unit_Test_cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\GitRepository\CurrentWorkSpace\ExampleJanuary09th2023Repository\TDD-Automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Calculator Unit Test cases&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Unit Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sgtesting.calculator.testcases.AdditionTestcases&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.calculator.testcases.DivisionTestcases&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.calculator.testcases.MultiplicationTestcases&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.calculator.testcases.SubstractionTestcases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Unit Tests --&gt;
+&lt;/suite&gt; &lt;!-- Calculator Unit Test cases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Calculator_Unit_Test_cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Calculator Unit Test cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Unit Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Calculator_Unit_Test_cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Calculator Unit Test cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Calculator_Unit_Test_cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Calculator Unit Test cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Calculator_Unit_Test_cases');
+function tableData_Calculator_Unit_Test_cases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addPositiveAndNegativeNumbers')
+data.setCell(0, 2, 'com.sgtesting.calculator.testcases.AdditionTestcases')
+data.setCell(0, 3, 14);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addTwoNegativeNumbers')
+data.setCell(1, 2, 'com.sgtesting.calculator.testcases.AdditionTestcases')
+data.setCell(1, 3, 9);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'divideTwoNegativeNumbers')
+data.setCell(2, 2, 'com.sgtesting.calculator.testcases.DivisionTestcases')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addPositiveAndZeroNumbers')
+data.setCell(3, 2, 'com.sgtesting.calculator.testcases.AdditionTestcases')
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'multiplyTwoNegativeNumbers')
+data.setCell(4, 2, 'com.sgtesting.calculator.testcases.MultiplicationTestcases')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dividePositiveAndNegativeNumbers')
+data.setCell(5, 2, 'com.sgtesting.calculator.testcases.DivisionTestcases')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'multiplyTwoPositiveNumbers')
+data.setCell(6, 2, 'com.sgtesting.calculator.testcases.MultiplicationTestcases')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'dividePositiveAndOneNumbers')
+data.setCell(7, 2, 'com.sgtesting.calculator.testcases.DivisionTestcases')
+data.setCell(7, 3, 3);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'divideTwoPositiveNumbers')
+data.setCell(8, 2, 'com.sgtesting.calculator.testcases.DivisionTestcases')
+data.setCell(8, 3, 3);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'substractTwoNegativeNumbers')
+data.setCell(9, 2, 'com.sgtesting.calculator.testcases.SubstractionTestcases')
+data.setCell(9, 3, 3);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'substractTwoPositiveNumbers')
+data.setCell(10, 2, 'com.sgtesting.calculator.testcases.SubstractionTestcases')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addTwoPositiveNumbers')
+data.setCell(11, 2, 'com.sgtesting.calculator.testcases.AdditionTestcases')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'multiplyPositiveAndZeroNumbers')
+data.setCell(12, 2, 'com.sgtesting.calculator.testcases.MultiplicationTestcases')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'substractPositiveAndZeroNumbers')
+data.setCell(13, 2, 'com.sgtesting.calculator.testcases.SubstractionTestcases')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'substractPositiveAndNegativeNumbers')
+data.setCell(14, 2, 'com.sgtesting.calculator.testcases.SubstractionTestcases')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'multiplyPositiveAndNegativeNumbers')
+data.setCell(15, 2, 'com.sgtesting.calculator.testcases.MultiplicationTestcases')
+data.setCell(15, 3, 1);
+window.suiteTableData['Calculator_Unit_Test_cases']= { tableData: data, tableDiv: 'times-div-Calculator_Unit_Test_cases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 58 ms</span>
+              <div id="times-div-Calculator_Unit_Test_cases">
+              </div> <!-- times-div-Calculator_Unit_Test_cases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Calculator_Unit_Test_cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Calculator Unit Test cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Calculator_Unit_Test_cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Calculator_Unit_Test_cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.calculator.testcases.AdditionTestcases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addPositiveAndNegativeNumbers</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addPositiveAndZeroNumbers</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addTwoNegativeNumbers</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addTwoPositiveNumbers</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.calculator.testcases.DivisionTestcases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dividePositiveAndNegativeNumbers</span>
+                <span class="method-start">48 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dividePositiveAndOneNumbers</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divideTwoNegativeNumbers</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divideTwoPositiveNumbers</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.calculator.testcases.MultiplicationTestcases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">multiplyPositiveAndNegativeNumbers</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplyPositiveAndZeroNumbers</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplyTwoNegativeNumbers</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplyTwoPositiveNumbers</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.calculator.testcases.SubstractionTestcases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">substractPositiveAndNegativeNumbers</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">substractPositiveAndZeroNumbers</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">substractTwoNegativeNumbers</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">substractTwoPositiveNumbers</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
