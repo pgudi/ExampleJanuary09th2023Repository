@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-12T09:22:13 IST" name="Calculator Unit Test cases" finished-at="2023-04-12T09:22:13 IST" duration-ms="175">
+    <groups>
+    </groups>
+    <test started-at="2023-04-12T09:22:13 IST" name="Unit Tests" finished-at="2023-04-12T09:22:13 IST" duration-ms="175">
+      <class name="com.sgtesting.calculator.testcases.DivisionTestcases">
+        <test-method signature="dividePositiveAndNegativeNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.DivisionTestcases@4bb33f74]" started-at="2023-04-12T09:22:13 IST" name="dividePositiveAndNegativeNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dividePositiveAndNegativeNumbers -->
+        <test-method signature="dividePositiveAndOneNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.DivisionTestcases@4bb33f74]" started-at="2023-04-12T09:22:13 IST" name="dividePositiveAndOneNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dividePositiveAndOneNumbers -->
+        <test-method signature="divideTwoNegativeNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.DivisionTestcases@4bb33f74]" started-at="2023-04-12T09:22:13 IST" name="divideTwoNegativeNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTwoNegativeNumbers -->
+        <test-method signature="divideTwoPositiveNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.DivisionTestcases@4bb33f74]" started-at="2023-04-12T09:22:13 IST" name="divideTwoPositiveNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTwoPositiveNumbers -->
+      </class> <!-- com.sgtesting.calculator.testcases.DivisionTestcases -->
+      <class name="com.sgtesting.calculator.testcases.AdditionTestcases">
+        <test-method signature="addPositiveAndNegativeNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.AdditionTestcases@212b5695]" started-at="2023-04-12T09:22:13 IST" name="addPositiveAndNegativeNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPositiveAndNegativeNumbers -->
+        <test-method signature="addPositiveAndZeroNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.AdditionTestcases@212b5695]" started-at="2023-04-12T09:22:13 IST" name="addPositiveAndZeroNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPositiveAndZeroNumbers -->
+        <test-method signature="addTwoNegativeNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.AdditionTestcases@212b5695]" started-at="2023-04-12T09:22:13 IST" name="addTwoNegativeNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwoNegativeNumbers -->
+        <test-method signature="addTwoPositiveNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.AdditionTestcases@212b5695]" started-at="2023-04-12T09:22:13 IST" name="addTwoPositiveNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwoPositiveNumbers -->
+      </class> <!-- com.sgtesting.calculator.testcases.AdditionTestcases -->
+      <class name="com.sgtesting.calculator.testcases.MultiplicationTestcases">
+        <test-method signature="multiplyPositiveAndNegativeNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.MultiplicationTestcases@759d26fb]" started-at="2023-04-12T09:22:13 IST" name="multiplyPositiveAndNegativeNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyPositiveAndNegativeNumbers -->
+        <test-method signature="multiplyPositiveAndZeroNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.MultiplicationTestcases@759d26fb]" started-at="2023-04-12T09:22:13 IST" name="multiplyPositiveAndZeroNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyPositiveAndZeroNumbers -->
+        <test-method signature="multiplyTwoNegativeNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.MultiplicationTestcases@759d26fb]" started-at="2023-04-12T09:22:13 IST" name="multiplyTwoNegativeNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTwoNegativeNumbers -->
+        <test-method signature="multiplyTwoPositiveNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.MultiplicationTestcases@759d26fb]" started-at="2023-04-12T09:22:13 IST" name="multiplyTwoPositiveNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTwoPositiveNumbers -->
+      </class> <!-- com.sgtesting.calculator.testcases.MultiplicationTestcases -->
+      <class name="com.sgtesting.calculator.testcases.SubstractionTestcases">
+        <test-method signature="substractPositiveAndNegativeNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.SubstractionTestcases@3c73951]" started-at="2023-04-12T09:22:13 IST" name="substractPositiveAndNegativeNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substractPositiveAndNegativeNumbers -->
+        <test-method signature="substractPositiveAndZeroNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.SubstractionTestcases@3c73951]" started-at="2023-04-12T09:22:13 IST" name="substractPositiveAndZeroNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substractPositiveAndZeroNumbers -->
+        <test-method signature="substractTwoNegativeNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.SubstractionTestcases@3c73951]" started-at="2023-04-12T09:22:13 IST" name="substractTwoNegativeNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substractTwoNegativeNumbers -->
+        <test-method signature="substractTwoPositiveNumbers()[pri:0, instance:com.sgtesting.calculator.testcases.SubstractionTestcases@3c73951]" started-at="2023-04-12T09:22:13 IST" name="substractTwoPositiveNumbers" finished-at="2023-04-12T09:22:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substractTwoPositiveNumbers -->
+      </class> <!-- com.sgtesting.calculator.testcases.SubstractionTestcases -->
+    </test> <!-- Unit Tests -->
+  </suite> <!-- Calculator Unit Test cases -->
+</testng-results>
