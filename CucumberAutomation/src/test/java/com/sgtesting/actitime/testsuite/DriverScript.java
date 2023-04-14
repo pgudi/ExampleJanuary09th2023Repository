@@ -1,7 +1,6 @@
 package com.sgtesting.actitime.testsuite;
-
-import org.junit.BeforeClass;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -11,12 +10,13 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
 		features="src/test/resources/FeatureFiles",
-		glue="com.sgtesting.actitime.stepdefinitions"
+		glue="com.sgtesting.actitime.stepdefinitions",
+		tags= {"@sanity , @regression"}
 		)
 public class DriverScript {
 	private TestNGCucumberRunner testngCucumberRunner=null;
 	
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void setUp()
 	{
 		try
@@ -43,7 +43,7 @@ public class DriverScript {
 		}
 		return testngCucumberRunner.provideFeatures();
 	}
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void tearDown()
 	{
 		try

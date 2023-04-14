@@ -13,7 +13,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class StepDefinitions {
-	private static WebDriver oBrowser=null;
+	public static WebDriver oBrowser=null;
 	/**
 	 *  I launch the Chrome Browser
 	 */
@@ -51,12 +51,12 @@ public class StepDefinitions {
 	/**
 	 *  I enter the username in username text field
 	 */
-	@When("^I enter the username in username text field$")
-	public void I_enter_the_username_in_username_text_field()
+	@When("^I enter the \"(.*)\" in username text field$")
+	public void I_enter_the_username_in_username_text_field(String username)
 	{
 		try
 		{
-			oBrowser.findElement(By.id("username")).sendKeys("admin");
+			oBrowser.findElement(By.id("username")).sendKeys(username);
 			Thread.sleep(1000);
 		}catch (Exception e) 
 		{
@@ -67,12 +67,12 @@ public class StepDefinitions {
 	/**
 	 *  I enter the password in password text field
 	 */
-	@And("^I enter the password in password text field$")
-	public void I_enter_the_password_in_password_text_field()
+	@And("^I enter the \"(.*)\" in password text field$")
+	public void I_enter_the_password_in_password_text_field(String password)
 	{
 		try
 		{
-			oBrowser.findElement(By.name("pwd")).sendKeys("manager");
+			oBrowser.findElement(By.name("pwd")).sendKeys(password);
 			Thread.sleep(1000);
 		}catch (Exception e) 
 		{
@@ -160,5 +160,17 @@ public class StepDefinitions {
 		{
 			e.printStackTrace();
 		}
+	}
+	
+	@Given("^I connect to the Oracle Database$")
+	public void I_connect_to_the_Oracle_Database()
+	{
+		System.out.println("I connect to the Oracle Database");
+	}
+	
+	@When("^I fetch records from Database tables$")
+	public void I_fetch_records_from_Database_tables()
+	{
+		System.out.println("I fetch records from Database tables");
 	}
 }
