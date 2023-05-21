@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testcases">
+	<test name="API Test Cases">
+		<classes>
+			<class name="com.sgtesting.tests.users.User"></class>
+		</classes>
+	</test>
+</suite>
